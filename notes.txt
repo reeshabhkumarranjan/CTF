@@ -1,3 +1,4 @@
 Viewing .rodata section: objcopy -O binary -j .rodata secret-society out.txt
 Hex to text on terminal: cat out.txt | od -t x1 | xxd -r -p
 Function calling convention on x86 64-bit: https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fwww.raywenderlich.com%2F615-assembly-register-calling-convention-tutorial
+Little Endian: LSB in lower memory
